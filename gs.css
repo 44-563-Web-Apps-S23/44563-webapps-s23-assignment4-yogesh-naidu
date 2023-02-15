@@ -1,0 +1,67 @@
+.speech {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+/* direction class */
+.direction {
+    font-family: Georgia, serif;
+    font-size: 14px;
+    color: black;
+    background-color: #b4bee1;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* hover effect for direction class */
+.direction:hover {
+    background-color: #5c3232;
+    color: rgb(236, 100, 193);
+}
+
+/* character classes */
+.IMP {
+    color: rgb(14, 104, 43);
+}
+
+.JUDGE {
+    color: rgb(70, 6, 61);
+}
+
+.POORMAN {
+    color: rgb(200, 129, 24);
+} 
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #333;
+    color: #be34c3;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #d4551500;
+  }
+  
+  td:first-child {
+    font-weight: bold;
+  }
+  
+  td:nth-child(2) {
+    font-style: italic;
+  }
+  
+  td:last-child {
+    color: #666;
+  }
+  
