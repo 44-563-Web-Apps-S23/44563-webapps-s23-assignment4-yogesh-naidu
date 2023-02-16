@@ -21,47 +21,40 @@
 
 /* character classes */
 .IMP {
-    color: rgb(14, 104, 43);
+    color: rgb(21, 216, 83);
 }
 
+
 .JUDGE {
-    color: rgb(70, 6, 61);
+    color: rgb(213, 21, 188);
 }
 
 .POORMAN {
-    color: rgb(200, 129, 24);
+    color: rgb(104, 13, 231);
 } 
 
-table {
-    border-collapse: collapse;
-    width: 100%;
-    margin: 10px 0;
-    font-size: 16px;
-  }
-  
-  th, td {
-    text-align: center;
+table,
+td,
+th {
+    margin: 1px solid black;
     padding: 10px;
-  }
-  
-  th {
-    background-color: #333;
-    color: #be34c3;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #d4551500;
-  }
-  
-  td:first-child {
-    font-weight: bold;
-  }
-  
-  td:nth-child(2) {
-    font-style: italic;
-  }
-  
-  td:last-child {
-    color: #666;
-  }
-  
+    border: 3px solid rgb(115, 114, 110);
+    text-align: center;
+}
+
+td {
+    color: rgb(83, 192, 154);
+}
+
+th {
+    color: brown;
+    background-color: rgb(155, 161, 215);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(97, 85, 179);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(220, 104, 98);
+}
