@@ -58,3 +58,26 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
     background-color: rgb(220, 104, 98);
 }
+
+
+.IMP:hover {
+    color: rgb(211, 40, 194);
+    filter:blur(2px);
+    box-shadow: 2px 5px 6px 7px rgb(45, 193, 209);
+    border: 7px solid blanchedalmond;
+}
+
+
+.JUDGE:hover {
+    color: rgb(91, 28, 208);
+    filter:blur(2px);
+    box-shadow: 2px 5px 6px 7px rgb(30, 158, 221);
+    border: 7px solid rgb(115, 114, 110);
+}
+
+.POORMAN:hover {
+    color: rgb(35, 203, 30);
+    filter:blur(2px);
+    box-shadow: 2px 5px 6px 7px rgb(20, 165, 201);
+    border: 7px solid olive ;
+} 
