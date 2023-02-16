@@ -79,5 +79,5 @@ tr:nth-child(odd) {
     color: rgb(35, 203, 30);
     filter:blur(2px);
     box-shadow: 2px 5px 6px 7px rgb(20, 165, 201);
-    border: 7px solid olive ;
+    border: 7px solid olive ; 
 } 
